@@ -1,6 +1,11 @@
-# kiran
-this is my first repository
-central version system
-this is my first commit
-repository created at another time 
-which help us to easy the learning process
+pipeline{
+   agent any 
+       stages{
+           stage{'build'} {
+                steps{
+                  sh 'echo "build is successful"'
+                  }
+                }
+             }
+         }
+      
