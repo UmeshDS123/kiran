@@ -1,0 +1,16 @@
+$sudo su -
+To install the terraform v1.3.6 in our linux machine
+#yum install terraform v1.3.6
+#terraform --version
+#mkdir tfdemo1
+#cd tfdemo1
+#vim terra3.tf
+#ls -lrt
+#chmod 755 terra3.tf
+#terraform init
+#terraform plan
+#terraform apply
+yes
+#terraform validate
+#terraform destroy
+yes
