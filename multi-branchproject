@@ -1,1 +1,11 @@
-echo "hello world"
+stage('cpu details') {
+step {
+---
+sh
+echo -e "\n\n"
+echo -e "\t\t" 'cpu details'
+echo -e "\n\n"
+top
+---
+}
+}
